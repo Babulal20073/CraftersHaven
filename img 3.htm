@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>All Products - CRAFTERSHAVEN CREATION</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="logo4.png" width="125">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/icons8-menu.png" class="menu-icon" height="30px" onclick="menutoggle()">
+                </div>
+            </div>
+            <!--Single Product details-->
+            <div class="small-container single-product">
+                <div class="row">
+                    <div class="col-2 col-n">
+                        <img src="img 3.webp" width="100%" id="ProductImg">
+                        <div class="small-img-row">
+                            <div class="small-img-col">
+                                <img src="" width="100%" class="SmallImg">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="" width="100%" class="SmallImg" >
+                            </div>
+                            <div class="small-img-col">
+                                <img src="" width="100%" class="SmallImg" >
+                            </div>
+                            <div class="small-img-col">
+                                <img src="" width="100%" class="SmallImg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <h1>Small Minature Shiva Statue - Brass statue</h1>
+                        <h4>&#8377; 2070</h4>
+                        <input type="number" value="1">
+                        <a href="" class="btn">Add To Cart
+                        </a>
+                        <h3>Product Details</h3>
+                        <br>
+                        <p>Displaying the sheer brilliance of Thai workmanship this handcrafted statue of Shiva from HD Asian Art.
+                            With perfect balance and proportions the sculpture depicts Shiva as Lord Nataraja, in traditional pose.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!---title--->
+            <div class="small-container">
+                <div class="row row3">
+                    <h2>Related Products</h2>
+                    <p>View More</p>
+                </div>
+            </div>
+             <div class="small-container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="img 9.png">
+                        <h4>Glow in the Dark Star Stickers-3D Glow in Dark Star</h4>
+                        <div class="rating">
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9734;</i>
+                        </div>
+                        <p>&#8377 1,749</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img 10.png">
+                        <h4>Unique Handcrafted Holiday Ornament</h4>
+                        <div class="rating">
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9734;</i>
+                        </div>
+                        <p>&#8377 1,099</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img 11.png">
+                        <h4>Retro Modern Metal Sculpture Art Abstract</h4>
+                        <div class="rating">
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9734;</i>
+                        </div>
+                        <p>&#8377 21,999</p>
+                    </div>
+                   
+                    <div class="col-4">
+                        <img src="img 12.png">
+                        <h4>Oversize Led Compass Metal Wall Clock</h4>
+                        <div class="rating">
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9733;</i>
+                            <i class="fa">&#9734;</i>
+                        </div>
+                        <p>&#8377 3,999</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <img src="logo4.png">
+                            <p>Our Purpose Is To Make A Better Marketplace For Selling The Craft And Art Online</p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li>Coupons</li>
+                                <li>Blog Posts</li>
+                                <li>Join Affiliate</li>
+                            </ul>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>Follow Us</h3>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Twitter</li>
+                                <li>Instagram</li>
+                                <li>YouTube</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="copyright">Copyright 2023 - Handmade Craft Marketplace</p>
+                </div>
+            </div>
+<!--js for toggle menu-->
+            <script>
+                var MenuItems=document.getElementById("MenuItems");
+                MenuItems.style.maxHeight = "0px";
+                function menutoggle(){
+                    if(MenuItems.style.maxHeight=="0px")
+                    {
+                        MenuItems.style.maxHeight = "200px";
+                    }
+                    else
+                    {
+                        MenuItems.style.maxHeight = "0px";
+                    }
+                }
+            </script>
+            <script>
+                var ProductImg=document.getElementById("ProductImg");
+                var SmallImg=document.getElementsByClassName("SmallImg");
+                  SmallImg[0].onclick=function(){
+                    ProductImg.src=SmallImg[0].src;
+                  }
+                  SmallImg[1].onclick=function(){
+                    ProductImg.src=SmallImg[1].src;
+                  }
+                  SmallImg[2].onclick=function(){
+                    ProductImg.src=SmallImg[2].src;
+                  }
+                  SmallImg[3].onclick=function(){
+                    ProductImg.src=SmallImg[3].src;
+                  }
+            </script>
+        </body>
+</html>
